@@ -1,7 +1,5 @@
 # Metagenomic-Analysis-Human-Infant-Microbiota
 
-# Metagenomic-Analysis-Human-Infant-Microbiota
-
 ## Project Overview
 
 This study performs a longitudinal metagenomic analysis based on the ECAM cohort, focusing on the gut microbiota composition of infants at 12 months of age. The research aims to identify microbial variations driven by clinical factors such as delivery mode (Vaginal vs. Cesarean), antibiotic exposure, and sex, while interpreting the biological significance of these shifts in early-life development.
