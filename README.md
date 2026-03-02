@@ -4,9 +4,9 @@
 
 ## Project Overview
 
-This study performs a longitudinal metagenomic analysis based on the ECAM cohort, focusing on the gut microbiota composition of infants at 12 months of age. The research aims to identify microbial variations driven by clinical factors such as delivery mode (Vaginal vs. Cesarean), antibiotic exposure, and sex, while interpreting the biological significance of these shifts in early-life development.The analysis manages the complete bioinformatics workflow, starting from raw sequence import and metadata curation (manifest and mapping files) to advanced differential abundance testing.
+This study performs a longitudinal metagenomic analysis based on the ECAM cohort, focusing on the gut microbiota composition of infants at 12 months of age. The research aims to identify microbial variations driven by clinical factors such as delivery mode (Vaginal vs. Cesarean), antibiotic exposure, and sex, while interpreting the biological significance of these shifts in early-life development.
 
-The pipeline utilizes the **QIIME2** ecosystem, beginning with a rigorous pre-filtering phase. Sequence quality was validated using **FastQC** and **MultiQC**, consistently showing Phred scores above 30. Denoising was performed via **DADA2** to infer exact Amplicon Sequence Variants (ASVs), achieving retention rates higher than 80% and ensuring a high-fidelity representation of the microbial community over traditional OTU picking.
+The pipeline utilizes the **QIIME2** ecosystem, beginning with a pre-filtering phase. Sequence quality was validated using **FastQC** and **MultiQC**, consistently showing Phred scores above 30. Denoising was performed via **DADA2** to infer exact Amplicon Sequence Variants (ASVs), achieving retention rates higher than 80% and ensuring a high-fidelity representation of the microbial community over traditional OTU picking.
 
 Data normalization was addressed through rarefaction at a sampling depth of **12,140 reads**, optimized by analyzing alpha rarefaction curves to maximize taxonomic richness while maintaining statistical power across the sample set.
 
